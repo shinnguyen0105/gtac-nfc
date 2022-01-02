@@ -1,0 +1,13 @@
+{
+    "name": "gtac",
+    "version": "1.0.0",
+    "main": "milo.html",
+    "homepage": "https://shinnguyen0105.github.io/gtac",
+    "dependencies": {
+        "gh-pages": "3.2.3"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
+}
